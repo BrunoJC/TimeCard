@@ -1,0 +1,29 @@
+/* cabeçalho */
+
+* { 
+    margin: 0%;
+    padding: 0%;
+}
+
+header {color:white ;
+    background-color: #FFAF19;
+    width: 1349.5px;
+    height: 98px;
+    padding: 5px;
+    }
+
+
+
+    #BttLogo  { position: relative;
+                top: -36px;
+
+               
+               
+                     }
+
+
+
+    #BttLogo img    {width: 110px;
+                    padding: 0px;
+                    
+                   }              

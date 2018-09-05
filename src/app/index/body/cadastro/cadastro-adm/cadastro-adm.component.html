@@ -1,0 +1,51 @@
+
+      
+       
+    <div id="CadastroALL">
+  
+  <h4>Cadastro de Administradores</h4>
+
+    <div class="rowCadastro">
+        <div class="input-field col s6">
+            <input [(ngModel)]="razaosocial" id="first_name1" type="text" class="validate">
+            <label class="active" for="first_name1">Razão social</label>
+          
+          </div><br>
+        
+          <div class="input-field col s6">
+          <input [(ngModel)]="emailAdm" id="first_name2" type="text" class="validate">
+          <label class="active" for="first_name2">E-mail/Adm</label>
+        
+        </div><br>
+        
+        <div class="input-field col s6">
+          <input [(ngModel)]="qtfuncionario" id="first_name3" type="text" class="validate">
+          <label class="active" for="first_name3">Quantidade de funcíonarios</label>
+        </div><br> 
+        
+        <div class="input-field col s6">
+          <input [(ngModel)]="cnpj" id="first_name4" type="text" class="validate">
+          <label class="active" for="first_name4">CNPJ</label>
+        </div><br>
+        
+        <div class="input-field col s6">
+          <input [(ngModel)]="segmento" id="first_name5" type="text" class="validate">
+          <label class="active" for="first_name5">Segmento</label>
+        
+        </div><br>
+        
+        <div class="input-field col s6">
+          <input [(ngModel)]="senha" id="first_name6" type="password" class="validate">
+          <label class="active" for="first_name6">Senha</label>
+        
+        </div><br>
+
+        
+      </div>
+
+      <button type="button" (click)="Cadastrar()">Cadastrar Usuario</button>
+
+  </div>
+
+
+ 

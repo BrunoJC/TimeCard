@@ -1,0 +1,601 @@
+
+* { 
+    margin: 0px;
+    padding: 0%;
+}
+
+
+
+
+header {color:white ;
+    background-color: #FFAF19;
+    width: 1349.2px;
+    height: 98px;
+    padding: 5px;
+    border: 2px solid #FFAF19;
+    box-shadow: 2px 2px 20px 2px #FFAF19;
+    
+    }
+
+
+
+    #BttLogo  { position: relative;
+                top: 1px;
+
+               
+               
+                     }
+
+
+
+    #BttLogo img    {width: 110px;
+                    padding: 0px;
+                    
+                   }              
+
+
+/* ----------------------------------------------------------------------------- */
+
+/* --------------------INICIO INDEX------------------------------------- */
+
+
+
+
+
+
+/* ------------------Body-------------------------------- */
+ 
+#SearchPrincipal {position: relative;
+                    top: 15px;
+                    left: 169px;
+                    height:57px ;
+                    width: 1000px;
+                    border-radius:20px;}
+
+
+        #SearchPrincipal  #bttPesquisa button{ height: 45px;
+                                            border: 2px solid #fecb0d;
+                                        border-radius: 5px;
+                                        color: #fecb0d;
+                                        background-color: #fff;
+                                        padding: 3px;}
+
+                                        #SearchPrincipal  #bttPesquisa button:hover { color: #fff;
+                                                                                        background-color: #fecb0d;}
+
+            
+         
+            
+    #bttprincipal{position: relative;
+                top:30px;
+                left: 70px;
+                height: 50px;
+                width: 1400px;
+                border-radius:20px;
+               
+                        } 
+
+            #bttprincipal nav { background-color: #fff;
+                                
+                                 }   
+                        
+            #bttprincipal ul li{ }
+    
+    
+            #bttprincipal #img a:link, a:visited { border: none;
+                                                    }
+
+                        #bttprincipal #img a:hover{ background-color: #fff;}
+
+            
+            #bttprincipal a:link, a:visited { position: relative; 
+                                                text-align: center;
+                                                text-decoration: none;
+                                                color: #fecb0d;
+                                                padding: 3px;
+                                                font-size: 20px;
+                                                border-right: 0.5px solid #C0C0C0;
+                                                height: 64px;
+                                                border-radius: 1px;
+                                                
+                                                                            }
+
+        
+        
+        
+            #bttprincipal a:active { color: #fff;
+                background-color: #fecb0d;
+                border: 1px solid #fecb0d;
+                height: 64px;}
+        
+        
+        
+        
+        
+            #bttprincipal   a:hover { color: #fff;
+                                background-color: #fecb0d;
+                                border: 1px solid #fecb0d;
+                                height: 64px;}
+
+            
+                                #bttprincipal a:active { }
+       
+              
+            
+    
+/*
+
+     #bttprincipal #listacadastro a:link, a:visited { position: relative;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    top: -9px;
+                                                    left: -339px;
+                                                    color: #fecb0d;
+                                                    background-color: white;
+                                                    border: 2px solid #fecb0d;
+                                                    border-radius:0px 0px 0px 0px;
+                                                    padding: 13px;
+                                                                
+                                                                }
+            
+         #bttprincipal #listacadastro a:hover {color:white;
+                                background-color:#fecb0d    ;}
+
+
+
+
+        #bttprincipal   #listaCadasAdm a:link, a:visited {position: relative;                              
+                                        top: -31px;
+                                        left: -132px;
+                                        height: 50px;
+                                        border: 2px solid #fecb0d;
+                                        border-radius: 5px;
+                                        color: #fecb0d;
+                                        background-color: #fff;
+                                        padding: 13px;
+                                        border-radius:0px 20px 20px 0px;
+                                        text-decoration: none;}
+
+                                        #bttprincipal   #listaCadasAdm a:hover { color: #fff;
+                                                                                        background-color: #fecb0d;}
+*/
+        
+
+/* -------------------------bg MODEL - Cadastrar funcionario---------------------------------------------------- */
+
+
+  
+                /*
+                
+                                    #bgModal {width: 100%;
+                          height: 100%;
+                         top: 0;
+                        left: 0;
+                        background-color: rgba(0,0,0,0.8);
+                        position: fixed;
+                        display: none;
+                        z-index: 3;}
+                
+                  #bgModal:target { display: block;}   
+                  
+                  #bgModal:target ~ .box {  left: 580px;
+                                            top:100px;
+                                            transition: all .3s;
+                                            transition-delay:  .2s;}
+                
+                    .box {  width: 720px;
+                            height: 405px;
+                            position: absolute;
+                            margin-left: -360px;
+                            left: 50%;
+                            z-index: 3;
+                            top:-700px;
+                            
+                            }
+                
+                
+                    .box #img {  width: 900px;
+                                height: 600px;
+                                position: absolute;
+                                top:0px;
+                                background-color: white;
+                                border-radius:20px;
+                                
+                                } 
+                                
+                        .box #backgroundBox{background-color: #fecb0d;
+                                                    height: 70px;
+                                                    border-radius:20px}
+                                                 
+                        
+                            .box #backgroundBox h3{text-align: center;
+                                                    padding: 16px;
+                                                    color: white;}
+                
+                
+                                                    .box  input{ width: 400px;
+                                border-left:none;
+                                border-top:none;
+                                border-right:none;
+                                border-bottom: 9px 9px  black;
+                                border-width: 2px;
+                                z-index: 1;}
+                                
+                                .btncadastrar {position: absolute;
+                                                top: 540px;
+                                                left: 400px;}
+                                                
+                                    .btncadastrar a:link, a:visited {color: #fecb0d;
+                                        background-color: white;
+                                        border: 2px solid #fecb0d;
+                                        border-radius:20px ;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        padding: 18px;
+                                        }  
+                                        
+                                        .btncadastrar a:hover {color:white;
+                                                                background-color:#fecb0d;}
+                                
+                                
+                        
+                        
+                                #close {    color: white;
+                                font-family: 'Arial';
+                                text-decoration: none;
+                                font-size: 35px;
+                                position: absolute;
+                                top: 6px;
+                                left: 830px;
+                                background-color: #fecb0d;
+                                width: 60px;
+                                height: 60px;
+                                text-align: center;
+                                right: 0;
+                                z-index: 3;
+                                border-radius:20px;
+                                padding: 5px;}    
+                                
+                                    #close:hover{background-color: red;
+                                                color: white;}
+                
+
+
+
+*/
+
+/* ----------------------------------------------------------------------------- */
+
+#Body {position: relative;
+        top: 60px;
+        left: 70px;
+        border-radius: 8px;
+        height: 600px;
+        border: 1px solid #C0C0C0;
+        box-shadow: 2px 8px 9px 1px #C0C0C0;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------FIM DO BODY ------------------------------- */
+
+/* ---------------------INICIO INDEX ------------------------------- */
+
+#index { position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+    
+       }
+
+       #index h4 {color: #fff;
+        background-color: #fecb0d;
+                    height: 80px;
+                    }
+
+
+                    #index h3 { position: relative;
+                                top: 99px;
+                                left: 60px;
+                                    }
+
+                                    #index img {position: relative;
+                                                top: 40px;
+                                                left: -60px;}     
+
+/* ---------------------INICIO DO CADASTRO adm ------------------------------- */
+
+#CadastroALL { position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+                }
+
+                #CadastroALL h4 {color: #fff;
+                    background-color: #fecb0d;
+                                height: 80px;
+                                }
+
+
+                         
+
+                #CadastroALL .rowCadastro  {position: relative;
+                                    left: 280px;
+                                    top: 70px;
+                                    width: 600px; }
+
+                                    #CadastroALL button {position: relative;
+                                                        top: 60px;
+                                                        height: 50px;
+                                                        border: 2px solid #fecb0d;
+                                                        border-radius: 5px;
+                                                        color: #fecb0d;
+                                                        background-color: #fff;
+                                                        padding: 3px;
+                                                       }
+                
+                                 #CadastroALL  button:hover { color: #fff;
+                                                            background-color: #fecb0d;}
+
+/* ---------------------FIM DO CADASTRO ADM--------------------------------------------- */
+
+/* ---------------------incio DO CADASTRO loginUser --------------------------------------------- */
+
+#CadastroLoginUser { position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+                }
+
+
+
+                #CadastroLoginUser h4 {color: #fff;
+                    background-color: #fecb0d;
+                                height: 80px;
+                                }
+
+
+                         
+
+                                #CadastroLoginUser .rowCadastro  {position: relative;
+                                    left: 280px;
+                                    top: 70px;
+                                    width: 600px; }
+
+                    #CadastroLoginUser button {position: relative;
+                                                        top: 60px;
+                                                        height: 50px;
+                                                        border: 2px solid #fecb0d;
+                                                        border-radius: 5px;
+                                                        color: #fecb0d;
+                                                        background-color: #fff;
+                                                        padding: 3px;
+                                                       }
+                
+                    #CadastroLoginUser  button:hover { color: #fff;
+                                                    background-color: #fecb0d;}
+
+
+
+/* ---------------------FIM DO CADASTRO loginUser --------------------------------------------- */
+
+/* ---------------------INICIO DA LISTA DE FUNCIONARIOS 1 --------------------------------------------- */
+
+#TableListFuncioAdm{ position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+       }
+
+       #TableListFuncioAdm h4 {color: #fff;
+        background-color: #fecb0d;
+                    height: 80px;
+                    }
+
+
+                    #TableListFuncioAdm img { width: 28px;}
+
+
+                    #TableListFuncioAdm  .pagination { position: relative;
+                                                        top: 23px;
+                                                        left: 890px;}
+
+
+
+
+ #EditorContainer{ position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+       }
+
+
+       .Fab-bottom-dialog-rith {background-color: #fecb0d;
+                                position: relative;
+                                left: 900px;}
+
+
+
+/* ---------------------FIM DA LISTA DE FUNCIONARIOS 1 --------------------------------------------- */
+/* ---------------------INICIO DO CADASTRO DE FUNCIONARIOS  --------------------------------------------- */
+
+#CadastroFunc{ position: relative;
+    top: -580px;
+    left: 89px;
+   border: 1px solid #C0C0C0;
+   box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+       }
+
+       #CadastroFunc h4 {color: #fff;
+        background-color: #fecb0d;
+                    height: 80px;
+                    }
+
+        #CadastroFunc .tablecadastrofunc .rowCadastroFun{ position: relative;
+                                                            top:-2px;
+                                                            left: 300px;
+                                                            width: 560px;}
+             #CadastroFunc .tablecadastrofunc button { position: relative;
+                                                        top: -30px;
+                                                        left: -40px;
+                                                    border: 1px solid #fecb0d;
+                                                    background-color: #fff;
+                                                    color: #fecb0d;
+                                                    border-radius: 8px;
+                                                    width: 440px;
+                                                    height: 40px;}
+
+                         #CadastroFunc .tablecadastrofunc button:hover { color:#fff;
+                                                                        background-color: #fecb0d;}
+
+
+
+
+
+
+/* ---------------------INICIO DO RODAPÉ--------------------------------------------- */
+
+.rodape {position: relative;
+           top: 160px;
+           background-color: #FFAF19;
+            width: 1349.2px;
+            height: 60px;
+            border: 2px solid #FFAF19;
+            box-shadow: 20px 35px 30px 40px #FFAF19;
+                    }  
+                
+                
+.rodape p{ position: relative;
+            left: 540px;
+            top: 60px;
+             color:white ;
+             padding: 2px;
+            width:5px ;
+            font-size: 18px;
+
+                            }  
+                            
+                            
+.rodape  .Myrede {position: relative;
+                top: 24px;
+                left: 150px;
+                width: 50px;
+                height: 50px;
+                float: left;
+                transition: all 0.4s ease-out;
+                box-shadow: 0px 0px 10px 0px #FFFF00;}
+
+.rodape  .Myrede:hover {cursor: pointer;
+                            transform: translateY(-8px);
+                            box-shadow: 4px 50px 16px 0px rgba(29, 29, 29, 0.25);  
+                                                                }
+                                            
+                                            
+.rodape #MySite {background-color: #fff;
+                 border-radius: 10px;
+                  position: relative;
+                   height: 68px;
+                    width: 68px;
+                    align-content: center;
+                    border:  1px solid #FFFF00;
+                    
+                                                }
+ 
+ 
+ .rodape #MySite img {position: relative;
+                       left: 1px;
+                        top:2px;
+                        width: 66px;
+                        align-content: center;
+                        padding: 5px;
+                        font-weight: 30px;}
+                        
+                        
+
+
+
+
+
+
+
+
+
+ .rodape .SiteEmpresa {position: relative;
+                        top:  -16px;
+                        left: -61px;
+                        }
+
+.rodape .SiteEmpresa img {width: 110px;
+                            padding: 0px;
+                            border: 0px;
+                        }
+
+
+
+
+
+
+
+
+
+
+
+  .rodape .Myrede2 {    position: relative;
+                        top: -87px;
+                        left: -140px;
+                        float: left;
+                        transition: all 0.4s ease-out;
+                        box-shadow: 0px 0px 10px 0px #FFFF00;}
+
+
+                        .rodape  .Myrede2:hover {cursor: pointer;
+                            transform: translateY(-8px);
+                            box-shadow: 4px 50px 16px 0px rgba(29, 29, 29, 0.25);  
+                                                                }
+
+
+
+.rodape #gmail{background-color: #fff;
+    border-radius: 10px;
+     position: relative;
+      height: 68px;
+       width: 78px;
+       align-content: center;
+       border:  1px solid #FFFF00;
+        align-content: center;}
+
+
+.rodape #gmail img {
+    position: relative;
+    left: 1px;
+     top:2px;
+     width: 59px;
+     align-content: center;
+     padding: 5px;
+     font-weight: 30px;}

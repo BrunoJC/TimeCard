@@ -1,0 +1,46 @@
+<div id="CadastroLoginUser">
+  
+  <h4>Cadastro de login para usuários</h4>
+
+    <p>Registro para acesso ao aplicativo</p>
+  <div class="rowCadastro">
+      <div class="input-field col s6">
+          <input [(ngModel)]="emailUser" id="first_name1" type="text" class="validate">
+          <label class="active" for="first_name1">E-mail/User</label>
+        
+        </div><br>
+      
+        <div class="input-field col s6">
+        <input [(ngModel)]="senhaUser" id="first_name2" type="text" class="validate">
+        <label class="active" for="first_name2">Senha</label>
+      
+      </div><br>
+
+      <p> Informações do usuário </p>
+
+      <div class="input-field col s6">
+        <input [(ngModel)]="nomeUser" id="first_name3" type="text" class="validate">
+        <label class="active" for="first_name3">Nome</label>
+      
+      </div><br>
+
+      <div class="input-field col s6">
+        <input [(ngModel)]="cpfUser" id="first_name4" type="text" class="validate">
+        <label class="active" for="first_name4">CPF</label>
+      
+      </div><br>
+
+      <div class="input-field col s6">
+        <input [(ngModel)]="pisUser" id="first_name5" type="text" class="validate">
+        <label class="active" for="first_name5">PIS</label>
+      
+      </div><br>
+
+      <div class="input-field col s6">
+        <input [(ngModel)]="empresaUser" id="first_name6" type="text" class="validate">
+        <label class="active" for="first_name6">Empresa</label>
+      
+      </div><br>
+
+      <button type="button" (click)="CadastrarUser()">Cadastrar Usuário</button>
+</div>

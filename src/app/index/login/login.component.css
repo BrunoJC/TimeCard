@@ -1,0 +1,87 @@
+#login {
+    
+    position: relative;
+    top: -580px;
+    left: 89px;
+    border: 1px solid #C0C0C0;
+    box-shadow: 6px 2px 8px 0px #C0C0C0;
+    width: 1160px;
+    height: 557px;
+       }
+
+
+#login #container { 
+    
+    position: relative;
+    top: 20px;
+    left: 280px;
+    width: 600px;
+    height: 516px;
+    border: 1px solid #ffc559;
+             
+}
+
+
+#login #container .row{ 
+    
+    position: relative;
+    top:20px;
+    left: 60px;
+    width: 500px;
+            
+
+}
+
+
+
+
+
+#login  #container #lembrarSenha{
+
+    position: relative;
+    
+    left: -177px;
+}
+
+
+
+#login  #container  #inputSelect { 
+
+    position: relative;
+    top: 100px;
+ }
+
+
+
+
+#login  #container #EsqueciSenha button {
+
+    position: relative;
+    top: 130px;
+    border: none;
+    border-bottom: 1px solid #fecb0d;
+
+}
+
+            #login  #container #EsqueciSenha button:hover { 
+
+                
+}
+
+#login  #container  #BtnEntrar button {
+    position: relative;
+    top: 160px;            
+    border: 1px solid #fecb0d;
+    background-color: #fff;
+    color: #fecb0d;
+    border-radius: 8px;
+    width: 440px;
+    height: 40px;
+
+}
+#login  #container #BtnEntrar  button:hover { 
+                
+    color:#fff;
+    background-color: #fecb0d;
+
+} 

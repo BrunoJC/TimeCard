@@ -1,0 +1,56 @@
+<div id="CadastroFunc">
+<h4>Cadastro de funcionaríos</h4>
+
+<div class="tablecadastrofunc">
+<br>
+  
+<div class="rowCadastroFun">
+    <div class="input-field col s6">
+      <input  id="first_name1" type="text" class="validate" [(ngModel)]="nome" >
+      <label class="active" for="first_name1">Nome</label>
+    </div>
+  </div>
+<br> 
+  <div class="rowCadastroFun">
+      <div class="input-field col s6">
+        <input  id="first_name2" type="text" class="validate" [(ngModel)]="email">
+        <label class="active" for="first_name2">E-mail</label>
+      </div>
+    </div>
+<br>
+    <div class="rowCadastroFun">
+        <div class="input-field col s6">
+          <input  id="first_name3" type="password" class="validate" [(ngModel)]="senha"> 
+          <label class="active" for="first_name3">Senha</label>
+        </div>
+      </div>
+<br>
+      <div class="rowCadastroFun">
+          <div class="input-field col s6">
+            <input  id="first_name4" type="text" class="validate" [(ngModel)]="urlImagem">
+            <label class="active" for="first_name4">UrlImagem</label>
+          </div>
+        </div>
+
+
+        <div class="rowCadastroFun">
+            <div class="input-field col s6">
+              <input  id="first_name5" type="text" class="validate" list="online-stores">
+              <label class="active" for="first_name5">Escolha o turno</label>
+              <datalist id="online-stores">
+                  <option value="Primeiro turno">
+                  <option value="Segundo turno">
+                  <option value="Terceiro turno">
+                  </datalist>
+            </div>
+          </div>
+
+          <ul id="Displayname"></ul>
+    
+    <br>
+   <div class="btncadastrar">     
+   <button (click)="addItem1()"  type="button">Cadastrar</button>
+    </div>
+  
+  </div>
+  </div>

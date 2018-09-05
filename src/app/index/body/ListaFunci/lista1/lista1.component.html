@@ -1,0 +1,62 @@
+
+      
+
+              
+       
+<div id="TableListFuncioAdm">
+
+
+
+<h4>Lista de Funcionaríos</h4>
+
+  <table class="highlight" id="Displayname">
+            
+      
+
+        
+    
+    <tr>
+
+          <th>Uid</th>  
+            <th>Nome</th>
+            <th>Turno</th>
+            <th>Empresa</th>
+            <th>Profissão</th>
+            <th>Presença</th>
+            
+      </tr>
+      
+        <tr valign="top" *ngFor="let funci of funcionario$ | async"  [matMenuTriggerFor]="taskMenu" 
+        [matMenuTriggerData]="{taskToDelete : task}">
+        
+                 <td>Id:{{ funci.uid }}</td>
+<td id="Displayname">Nome: {{ funci.name }}</td>
+          <td>Turno: {{ funci.turno }}</td>
+          <td>Empresa: {{ funci.empresa }}</td>
+          <td>Profissão: {{ funci.profissao }}</td>
+          <td><img src="./assets/aprovacao.png" /></td>
+          <td><a [routerLink]="['./../visualizar']"><img src="./assets/visualizar.png" /></a></td>
+        
+          <mat-menu #taskMenu="matMenu" overlapTrigger="false">
+            <ng-template matMenuContent let-task="taskToDelete">
+            <button mat-menu-item (click)="showDialog(task)">
+              <mat-icon>edit</mat-icon><span>Update</span>
+            </button>
+          
+            <button (click)="delete()" mat-menu-item><mat-icon>delete</mat-icon><span>Remove</span>
+            </button>
+
+            </ng-template>
+          </mat-menu>
+        
+      </tr>
+      
+      <button mat-fab class="Fab-bottom-dialog-rith" (click)="showDialog()" >
+        <mat-icon> add</mat-icon>
+         
+         </button>
+       
+          
+
+</table> 
+</div>

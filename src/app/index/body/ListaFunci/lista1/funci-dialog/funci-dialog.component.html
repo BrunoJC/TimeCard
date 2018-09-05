@@ -1,0 +1,60 @@
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
+
+<mat-dialog-content>
+
+  <mat-form-field>
+    <input type="text" matInput [(ngModel)]="name.name" placeholder="Nome" 
+    required minlength="3" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+  
+   <br><br>
+  <input type="text" [(ngModel)]="name.uid" placeholder="UID" 
+    required minlength="3" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+  <input type="text"  [(ngModel)]="name.turno" placeholder="Turno" 
+    required minlength="4" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+  <input type="text"  [(ngModel)]="name.empresa" placeholder="Empresa" 
+    required minlength="1" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+    <input type="text"  [(ngModel)]="name.profissao" placeholder="Profissão" 
+    required minlength="3" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+    <input type="text"  [(ngModel)]="name.rg" placeholder="RG" 
+    required minlength="9" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+    
+    <input type="text"  [(ngModel)]="name.emailUser" placeholder="email" 
+    required minlength="3" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+
+    <br><br>
+
+    <input type="password"  [(ngModel)]="name.senha" placeholder="senha" 
+    required minlength="3" 
+    (Keyup.enter)="Onsave()"
+    #namecontrol="ngModel">
+    <br><br>
+    
+  </mat-form-field>
+
+
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-button [disabled]="namecontrol.invalid" (click)="Onsave()">Cadastrar</button>
+</mat-dialog-actions>
